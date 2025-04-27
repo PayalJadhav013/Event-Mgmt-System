@@ -117,9 +117,9 @@ Before you start, ensure you have the following installed:
         ng serve
       ````
    5. Access the Application🌍
-      >  Backend will be running at http://localhost:8080/.
-      >  Frontend will be running at http://localhost:4200/.
-      >  Open your browser and go to the Angular app at http://localhost:4200/ to interact with the Event Management System.
+      > Backend will be running at http://localhost:8080/
+      > Frontend will be running at http://localhost:4200/
+      > Open your browser and go to the Angular app at http://localhost:4200/ to interact with the Event Management System
 
 ## Contribution🤝
    Feel free to fork this repository, make changes, and submit pull requests. Please follow best practices for code formatting and include tests for new features or bug fixes.
