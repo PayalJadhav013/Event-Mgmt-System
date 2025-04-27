@@ -127,7 +127,7 @@ Before you start, ensure you have the following installed:
       ````
       
    6. Access the Application🌍
-   7. 
+      
        Backend will be running at http://localhost:8080/
       
        Frontend will be running at http://localhost:4200/
