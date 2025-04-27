@@ -6,7 +6,7 @@ This project is an Event Management System built with Java, Spring Boot, Postgre
 ### Screenshot 📸
 Here's a screenshot of the Event Management System:
 
-
+![Event Management System Screenshot](https://github.com/PayalJadhav013/Event-Mgmt-System/blob/738b018d6bbb91f9e1d0b591a5cdcae4b7892f07/1.png)
 
 ## Project Structure 🏗️
 Backend(Spring Boot)🔧
@@ -117,9 +117,9 @@ Before you start, ensure you have the following installed:
         ng serve
       ````
    5. Access the Application🌍
-      > Backend will be running at http://localhost:8080/.
-      > Frontend will be running at http://localhost:4200/.
-      > Open your browser and go to the Angular app at http://localhost:4200/ to interact with the Event Management System.
+      >  Backend will be running at http://localhost:8080/.
+      >  Frontend will be running at http://localhost:4200/.
+      >  Open your browser and go to the Angular app at http://localhost:4200/ to interact with the Event Management System.
 
 ## Contribution🤝
    Feel free to fork this repository, make changes, and submit pull requests. Please follow best practices for code formatting and include tests for new features or bug fixes.
