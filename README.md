@@ -1,12 +1,17 @@
-# Event Management System
+# Event Management System 🎉
 
-## Overview
+## Overview 🚀
 This project is an Event Management System built with Java, Spring Boot, PostgreSQL, JPA, and REST API for the backend. The frontend is developed using Angular, TypeScript, HTML, CSS, and JavaScript. The application allows users to manage events, attendees, and registrations with a seamless user experience.
 
-## Project Structure
-Backend
-The backend is a Spring Boot application that interacts with a PostgreSQL database and exposes RESTful APIs.
+### Screenshot 📸
+Here's a screenshot of the Event Management System:
 
+
+
+## Project Structure 🏗️
+Backend(Spring Boot)🔧
+The backend is a Spring Boot application that interacts with a PostgreSQL database and exposes RESTful APIs.
+```text
 backend/
 ├── src/
 │   ├── main/
@@ -23,10 +28,11 @@ backend/
 │   │       ├── application.properties
 │   └── test/                    # Test classes
 ├── pom.xml
+```
 
-## Frontend
+## Frontend(Angular)🌐
 The frontend is built with Angular and provides a clean UI for managing events, attendees, and registrations.
-
+```text
 frontend/
 ├── src/
 │   ├── app/
@@ -57,52 +63,68 @@ frontend/
 ├── angular.json
 ├── package.json
 └── tsconfig.json
-
-## Installation and Setup
-Prerequisites
+```
+## Installation and Setup⚙️
+Prerequisites📋
 
 Before you start, ensure you have the following installed:
 
-Java 17+
+> Java 17+☕
 
-Spring Boot
+> Spring Boot🔥
 
-PostgreSQL database running
+> PostgreSQL 🗄️ database running
 
-Node.js (for frontend)
+> Node.js🟩 (for frontend)
 
-Angular CLI
+> Angular CLI🅰️
 
-## Steps
-   1. Clone the repository
+## Steps🏃‍♂️
+   1. Clone the repository 🖥️
+      ````bash
       git clone https://github.com/PayalJadhav013/Event-Mgmt-System.git
-   2. Backend Setup
+      ````
+   3. Backend Setup🔧
       > Navigate to the backend/ folder:
+      ````bash
         cd backend
-      > Install dependencies using Maven:
+      ````
+      > Install dependencies using Maven🛠️:
+      ````bash
         mvn clean install
+      ````
       > Configure application.properties with your PostgreSQL database details:
+      ````bash
         spring.datasource.url=jdbc:postgresql://localhost:5432/yourdbname
         spring.datasource.username=yourusername
         spring.datasource.password=yourpassword
-      > Run the Spring Boot application:
+      ````
+      > Run the Spring Boot application🏃‍♂️:
+      ````bash
         mvn spring-boot:run
-   3. Frontend Setup
+      ````
+   4. Frontend Setup🌐
       > Navigate to the frontend/ folder:
+      ````bash
         cd frontend
-      > Install Angular dependencies:
+      ````
+      > Install Angular dependencies🧩:
+      ````bash
         npm install
-      > Start the Angular development server:
+      ````
+      > Start the Angular development server🚀:
+      ````bash
         ng serve
-   4. Access the Application
+      ````
+   5. Access the Application🌍
       > Backend will be running at http://localhost:8080/.
       > Frontend will be running at http://localhost:4200/.
       > Open your browser and go to the Angular app at http://localhost:4200/ to interact with the Event Management System.
 
-## Contribution
+## Contribution🤝
    Feel free to fork this repository, make changes, and submit pull requests. Please follow best practices for code formatting and include tests for new features or bug fixes.
 
-## License
+## License📝
    This project is licensed under the MIT License - see the LICENSE file for details.
       
       
